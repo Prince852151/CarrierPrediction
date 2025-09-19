@@ -1,0 +1,78 @@
+# -------------------------
+# Virtual environment
+# -------------------------
+venv/
+ENV/
+env/
+venv.bak/
+
+# -------------------------
+# Python bytecode / caches
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# OS / misc
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs & temp
+# -------------------------
+logs/
+*.log
+tmp/
+temp/
+
+# -------------------------
+# Build / distribution
+# -------------------------
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# -------------------------
+# Test / cache
+# -------------------------
+.pytest_cache/
+
+# -------------------------
+# Data, models, large files (optional)
+# Ignore if you don't want to push big datasets or model binaries
+# If you do want to include a model, remove the relevant lines.
+# -------------------------
+data/
+datasets/
+models/
+*.h5
+*.pkl
+*.joblib
+
+# -------------------------
+# Streamlit secrets / config (do NOT commit secrets)
+# -------------------------
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# -------------------------
+# Environment files (sensitive)
+# -------------------------
+.env
+.env.*
